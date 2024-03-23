@@ -8,4 +8,4 @@ greeting = f'Hi {name}, this is not your conscience, this is something similar t
 msg_lenght = len(greeting)
 
 print(greeting)
-print(f'The lenght of the message is {msg_lenght}')
+print(f'The lenght of the message is {msg_lenght} characters')
