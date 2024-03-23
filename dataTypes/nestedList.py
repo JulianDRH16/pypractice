@@ -3,16 +3,16 @@
 ##print(archivo.read())
 #input = archivo.read()
 
-
+#primer numero es cantidad de estudiantes, seguido de nombre y calificacion para lograr segundo valor mas grande
 
 
 if __name__ == '__main__':
     
     students_data = []
     students_scores = []
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
+    for _ in range(int(input('Number of students:'))):
+        name = input("Student's name:")
+        score = float(input("Student's score:"))
         students_data.append([name, score])
         students_scores.append(score)
 
